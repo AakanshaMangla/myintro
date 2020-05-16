@@ -1,0 +1,96 @@
+body{
+  margin: 0; /* top bottom left right, all gaps at end i.e margin becomes zero */
+  text-align: center; /* 1st way to align: aligns elements not having width set */
+  font-family: 'Merriweather', serif;  /* if verdana is installed in os then it will be applied otherwise sans-serif */
+  font-size: 100%;
+  color: #40514E;
+}
+
+h1{
+  font-size: 5.625rem; /*90px/16=5.625 */
+  margin: 50 auto 0 auto ;  /*top margin only matters in case of heading beacuse ofthere is a gap at top despite setting body's margin as zero */
+  /*0 at bottom so that there no gap between h1 and h2 */
+  /*width: 10%; 10 per of web page
+  margin: 0 auto 0 auto; /* 0 for top auto for right 0 for bottom auto(automatically sets margin to be center aligned ) for left */
+  font-family: 'Sacramento', 'cursive';
+  color: #66BFBF; /* color to text in body */
+}
+p{
+  line-height: 2; /*doubles height between heading and text following it, can also do this by padding-bottom */
+}
+h2{
+  font-size: 2rem; /* (40/16) */
+  font-family: 'Merriweather', serif;
+  color: #66BFBF;
+  font-weight: normal; /* makes each letter's width in a word normal */
+  line-height: 2; /*doubles height between heading and text following it, can also do this by padding-bottom */
+}
+
+h3{
+  color: #11999E;
+}
+a{
+    color: #11999E;
+    text-decoration: none; /* to remove underline */
+}
+a:hover{
+  color: #EAF6F6;
+}
+.topcontainer{
+  margin-top: 0; /* top margin only matters in case of heading beacuse of it there is a gap at top despite setting body's margin as zero */
+  position: relative;
+  padding-top: 100px;
+  background-color: #EAF6F6;
+}
+  .pro{
+  text-decoration: underline;
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom: 250px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top:40px;
+}
+.firstskill{
+  width: 25%; /* 25% space of entire div(block) */
+  float: left; /* for text to be displayed at left of image */
+  margin-right: 30px; /* space between text and image */
+}
+.secondskill{
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+hr{
+  border: grey 5px; /* 5px is the border width */
+  border-style: dotted none none;
+  width: 5%;
+  margin: 100px auto;
+}
+.middle-container{
+  margin: 100px 0; /*100 for top and bottom, 0 for left and right */
+}
+.contact-me{
+  width: 70%; /* so that this info doesint take much of page space */
+  margin: 40px auto 60px auto;
+}
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px; /* 50 for top 20 for bottom 0 for left right */
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
